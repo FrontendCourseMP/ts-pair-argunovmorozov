@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Расчет нового времени прибытия</h1>
+    <h2>Задание 1 - Расчет нового времени прибытия</h2>
 
     <form id="arrivalForm">
         <label>
@@ -22,11 +22,22 @@
         </label>
         <button type="submit">Посчитать</button>
 
-        <h2>Новое время прибытия:</h2>
+        <h3>Новое время прибытия:</h3>
         <output id="result"></output>
 
-        <script type="module" src="./dist/index.js"></script>
+        <script type="module" src="./dist/timeArrival.js"></script>
     </form>
+
+
+    <h2>Задание 2 - Скобки</h2>
+
+    <input type="text" id="rowBrackets" name="rowBrackets" required placeholder="Введите строку, например: ()[]{}">
+    <button id="checkBrackets">Проверить</button>
+
+    <h3>Строка валидна?</h3>
+    <output id="secondResult"></output>
+
+    <script type="module" src="./dist/brackets.js"></script>
 </body>
 
 </html>
